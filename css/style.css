@@ -614,9 +614,7 @@ ul { list-style: none; }
 }
 
 .skill-chip {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
+  display: inline-block;
   padding: 8px 16px;
   background: #e5e7eb;
   border-radius: 28px;
@@ -625,13 +623,6 @@ ul { list-style: none; }
   color: #374151;
   border: 1px solid rgba(156, 163, 175, 0.2);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
-}
-
-.skill-chip-progress {
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  flex-shrink: 0;
 }
 
 /* ===== Projects Section ===== */

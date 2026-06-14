@@ -80,12 +80,7 @@ function renderSkills() {
     card.setAttribute('data-aos-delay', String(idx * 100));
 
     const chipsHTML = cat.skills.map(skill => {
-      const pct = Math.round(skill.proficiency * 100);
-      const gradient = `conic-gradient(${colors.main} ${pct * 3.6}deg, #e5e7eb ${pct * 3.6}deg)`;
-      return `<span class="skill-chip" title="Proficiency: ${pct}%">
-      <span class="skill-chip-progress" style="background:${gradient}"></span>
-      ${skill.name}
-    </span>`;
+      return `<span class="skill-chip">${skill.name}</span>`;
     }).join('');
 
     card.innerHTML = `
