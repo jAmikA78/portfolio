@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmed Ibrahim — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="assets/personal-image.jpeg" type="image/jpeg">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <i class="fas fa-code logo-icon"></i>
+        <span>Ahmed Ibrahim</span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#testimonials" class="nav-link">Testimonials</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <a href="#contact" class="nav-cta">Hire Me</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-circle hero-circle-1"></div>
+    <div class="hero-circle hero-circle-2"></div>
+    <div class="hero-circle hero-circle-3"></div>
+    <div class="hero-container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <p class="hero-greeting" data-aos="fade-down">Hi, I'm</p>
+          <h1 class="hero-name" data-aos="fade-down" data-aos-delay="100">Ahmed Ibrahim</h1>
+          <div class="hero-divider" data-aos="fade-right" data-aos-delay="200"></div>
+          <p class="hero-subtitle" data-aos="fade-down" data-aos-delay="300">Software Engineer &bull; Mobile Developer &bull; Problem Solver</p>
+          <div class="hero-cta" data-aos="fade-up" data-aos-delay="400">
+            <a href="#contact" class="btn btn-primary">
+              <i class="fas fa-envelope"></i> Get In Touch
+            </a>
+            <a href="#projects" class="btn btn-outline">
+              <i class="fas fa-code"></i> View Projects
+            </a>
+          </div>
+        </div>
+        <div class="hero-image-wrapper" data-aos="zoom-in" data-aos-delay="200">
+          <div class="hero-image-glow"></div>
+          <div class="hero-image-frame">
+            <img src="assets/personal-image.jpeg" alt="Ahmed Ibrahim" class="hero-image">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="services-section" data-aos="fade-up" data-aos-delay="500">
+      <h2 class="services-title">My Services</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <div class="service-text">
+            <h3>Mobile Development</h3>
+            <p>Flutter-powered apps with seamless user experiences that captivate and engage</p>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <div class="service-text">
+            <h3>Programming Instructor</h3>
+            <p>Mentoring and coaching students in programming fundamentals and competitive programming</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator" id="scrollIndicator">
+      <div class="scroll-mouse">
+        <div class="scroll-dot"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-header" data-aos="fade-in">
+        <h2 class="section-title">About Me</h2>
+        <div class="section-line" style="width:80px"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-left">
+          <div class="about-story">
+            <div class="story-label" data-aos="fade-right">
+              <div class="story-bar"></div>
+              <span>My Story</span>
+            </div>
+            <p class="about-text" data-aos="fade-right" data-aos-delay="100">From the age of 14, I've been captivated by the world of code, and now, that passion is my reality. I transform complex ideas into impactful digital solutions. Specializing in high-performance Flutter mobile apps, intelligent Python-based AI, and robust web development, I bring a diverse technical toolkit to every project. My passion lies in solving challenging coding puzzles and fostering growth within the tech community through mentorship.</p>
+            <p class="about-text" data-aos="fade-right" data-aos-delay="200">I deliver meticulously crafted, highly impactful solutions designed to exceed expectations. My approach combines technical excellence with a keen understanding of project goals, ensuring every line of code drives tangible results. Let's connect and build something amazing together!</p>
+          </div>
+          <div class="about-subsection" data-aos="fade-right" data-aos-delay="150">
+            <div class="subsection-label">
+              <i class="fas fa-graduation-cap"></i>
+              <span>Education</span>
+            </div>
+            <div class="info-card" style="border-left-color:#43A047">
+              <div class="info-item">
+                <div class="info-dot" style="background:#43A047"></div>
+                <div>
+                  <p class="info-title">Bachelor of Computer Science | MAM(Modern Academy in Maadi)</p>
+                  <p class="info-duration">Graduated: 2020</p>
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="info-dot" style="background:#43A047"></div>
+                <div>
+                  <p class="info-title">High School Diploma | El-Massreen High School</p>
+                  <p class="info-duration">Graduated: 2016</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-right">
+          <div class="about-subsection" data-aos="fade-left" data-aos-delay="150">
+            <div class="subsection-label">
+              <i class="fas fa-briefcase"></i>
+              <span>Experience</span>
+            </div>
+            <div class="info-card" style="border-left-color:#2563EB">
+              <div class="info-item">
+                <div class="info-dot" style="background:#2563EB"></div>
+                <div>
+                  <p class="info-title">Mobile Developer Intern | ITI(Information Technology Institute)</p>
+                  <p class="info-duration">Sep 2025</p>
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="info-dot" style="background:#2563EB"></div>
+                <div>
+                  <p class="info-title">AI/ML Intern | NTI(National Technology Institute)</p>
+                  <p class="info-duration">Aug 2025</p>
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="info-dot" style="background:#2563EB"></div>
+                <div>
+                  <p class="info-title">Deep Learning Engineer Intern | Div Academy</p>
+                  <p class="info-duration">Jul 2024 - Aug 2024</p>
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="info-dot" style="background:#2563EB"></div>
+                <div>
+                  <p class="info-title">Mobile Application Developer Intern | IT Sharks</p>
+                  <p class="info-duration">Jun 2023 - Sep 2023</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="about-subsection" data-aos="fade-left" data-aos-delay="250">
+            <div class="subsection-label">
+              <i class="fas fa-heart"></i>
+              <span>Volunteering</span>
+            </div>
+            <div class="info-card" style="border-left-color:#FACC15">
+              <div class="info-item">
+                <div class="info-dot" style="background:#FACC15"></div>
+                <div>
+                  <p class="info-title">Co-Head | ICPC MA Community</p>
+                  <p class="info-duration">Jul 2024 - Present</p>
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="info-dot" style="background:#FACC15"></div>
+                <div>
+                  <p class="info-title">Head of Instructors | ICPC MA Community</p>
+                  <p class="info-duration">Sep 2023 - Present</p>
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="info-dot" style="background:#FACC15"></div>
+                <div>
+                  <p class="info-title">Team Leader | Code Box</p>
+                  <p class="info-duration">May 2023 - Sep 2023</p>
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="info-dot" style="background:#FACC15"></div>
+                <div>
+                  <p class="info-title">Instructor | Code Box</p>
+                  <p class="info-duration">Feb 2023 - Sep 2023</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <div class="section-header" data-aos="fade-in">
+        <h2 class="section-title">Skills & Expertise</h2>
+        <p class="section-subtitle">A curated set of skills honed through years of dedication and practical experience</p>
+        <div class="section-line" style="width:140px"></div>
+      </div>
+      <div class="skills-grid" id="skillsGrid"></div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <div class="section-header" data-aos="fade-in">
+        <h2 class="section-title" style="color:#fff">Featured Projects</h2>
+        <p class="section-subtitle" style="color:#9CA3AF">Explore innovative solutions crafted to address real-world challenges</p>
+        <div class="section-line" style="width:120px;background:#0EA5E9"></div>
+      </div>
+      <div class="project-filters" data-aos="fade-in" data-aos-delay="100">
+        <button class="filter-btn active" data-filter="all">All</button>
+      </div>
+      <div class="projects-grid" id="projectsGrid"></div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header" data-aos="fade-in">
+        <h2 class="section-title">What Others Say</h2>
+        <p class="section-subtitle">Testimonials from colleagues, mentors, and the development community</p>
+        <div class="section-line" style="width:96px;background:#2563EB"></div>
+      </div>
+      <div class="testimonial-carousel" data-aos="fade-up">
+        <div class="testimonial-card" id="testimonialCard">
+          <div class="testimonial-quote-icon"><i class="fas fa-quote-left"></i></div>
+          <div class="testimonial-content">
+            <img src="" alt="" class="testimonial-avatar" id="testimonialAvatar">
+            <div class="testimonial-body">
+              <div class="testimonial-stars" id="testimonialStars"></div>
+              <p class="testimonial-quote" id="testimonialQuote"></p>
+              <p class="testimonial-author" id="testimonialAuthor"></p>
+              <p class="testimonial-company" id="testimonialCompany"></p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-btn carousel-prev" id="prevTestimonial"><i class="fas fa-chevron-left"></i></button>
+        <button class="carousel-btn carousel-next" id="nextTestimonial"><i class="fas fa-chevron-right"></i></button>
+      </div>
+      <div class="carousel-dots" id="carouselDots"></div>
+
+      <div class="achievements-section" data-aos="fade-in">
+        <h3 class="achievements-title">Recognition & Achievements</h3>
+        <div class="achievements-grid">
+          <div class="achievement-card">
+            <h4>Codeforces Ranking</h4>
+            <p>Competitive Programming Excellence</p>
+          </div>
+          <div class="achievement-card">
+            <h4>ECPC Finalist</h4>
+            <p>Egyptian Collegiate Programming Contest</p>
+          </div>
+          <div class="achievement-card">
+            <h4>Head of Instructors</h4>
+            <p>ICPC MA Community Leadership</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header" data-aos="fade-in">
+        <h2 class="section-title">Let's Create Something Extraordinary</h2>
+        <p class="section-subtitle">Explore my work, and reach out to turn your vision into reality with solutions that inspire and perform</p>
+        <div class="section-line" style="width:100px"></div>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info" data-aos="fade-right">
+          <h3 class="contact-info-title">Get In Touch</h3>
+          <p class="contact-info-text">Ready to start your next project? I'm here to help you bring your ideas to life with cutting-edge technology and innovative solutions.</p>
+          <div class="contact-details">
+            <div class="contact-detail">
+              <i class="fas fa-envelope contact-detail-icon"></i>
+              <div>
+                <p class="contact-detail-label">Email</p>
+                <a href="mailto:Ahmed.Ibrahim.official.mail@gmail.com" class="contact-detail-value">Ahmed.Ibrahim.official.mail@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <i class="fas fa-phone contact-detail-icon"></i>
+              <div>
+                <p class="contact-detail-label">Phone</p>
+                <a href="tel:+201127818389" class="contact-detail-value">+201127818389</a>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <i class="fas fa-map-marker-alt contact-detail-icon"></i>
+              <div>
+                <p class="contact-detail-label">Location</p>
+                <p class="contact-detail-value">Cairo, Egypt</p>
+              </div>
+            </div>
+          </div>
+          <h4 class="connect-title">Connect With Me</h4>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/-ahmed-ibrahim-abd-elghany" target="_blank" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/jAmikA78" target="_blank" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://wa.me/201127818389" target="_blank" class="social-link" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="mailto:Ahmed.Ibrahim.official.mail@gmail.com" class="social-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+        <div class="contact-form-wrapper" data-aos="fade-left">
+          <form class="contact-form" id="contactForm">
+            <h3 class="form-title">Send Me a Message</h3>
+            <div class="form-group">
+              <input type="text" id="name" class="form-input" placeholder="Enter your full name" required>
+              <label for="name" class="form-label">Your Name</label>
+              <span class="form-error" id="nameError">Please enter your name</span>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" class="form-input" placeholder="your.email@example.com" required>
+              <label for="email" class="form-label">Email Address</label>
+              <span class="form-error" id="emailError">Please enter a valid email</span>
+            </div>
+            <div class="form-group">
+              <textarea id="message" class="form-input form-textarea" placeholder="Tell me about your project or how I can help you..." rows="5" required></textarea>
+              <label for="message" class="form-label">Your Message</label>
+              <span class="form-error" id="messageError">Please enter your message</span>
+            </div>
+            <button type="submit" class="btn btn-primary form-submit" id="formSubmit">
+              <i class="fas fa-paper-plane"></i>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <i class="fas fa-code"></i>
+            <span>Ahmed Ibrahim</span>
+          </div>
+          <p class="footer-tagline">Crafting digital solutions that redefine innovation through mobile apps, AI models, and web platforms.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-connect">
+          <h4>Connect</h4>
+          <div class="footer-social">
+            <a href="https://www.linkedin.com/in/-ahmed-ibrahim-abd-elghany" target="_blank" class="footer-social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/jAmikA78" target="_blank" class="footer-social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://wa.me/201127818389" target="_blank" class="footer-social-link" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="mailto:Ahmed.Ibrahim.official.mail@gmail.com" class="footer-social-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          </div>
+          <p class="footer-availability">Available for freelance work and collaboration</p>
+        </div>
+      </div>
+      <div class="footer-divider"></div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Ahmed Ibrahim Abd El-Ghany. All rights reserved.</p>
+        <p></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
