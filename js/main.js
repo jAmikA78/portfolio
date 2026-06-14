@@ -392,6 +392,36 @@ function initAOS() {
   els.forEach(el => observer.observe(el));
 }
 
+// ===== Scroll Buttons =====
+function initScrollButtons() {
+  document.querySelectorAll('.scroller-wrapper').forEach(wrapper => {
+    const grid = wrapper.querySelector('.skills-grid, .projects-grid');
+    const leftBtn = wrapper.querySelector('.scroll-btn-left');
+    const rightBtn = wrapper.querySelector('.scroll-btn-right');
+    if (!grid || !leftBtn || !rightBtn) return;
+
+    const scrollAmount = () => {
+      const card = grid.querySelector('.skill-card, .project-card');
+      return card ? card.offsetWidth + 24 : 300;
+    };
+
+    leftBtn.addEventListener('click', () => {
+      grid.scrollBy({ left: -scrollAmount(), behavior: 'smooth' });
+    });
+
+    rightBtn.addEventListener('click', () => {
+      grid.scrollBy({ left: scrollAmount(), behavior: 'smooth' });
+    });
+
+    grid.addEventListener('scroll', () => {
+      const atStart = grid.scrollLeft <= 4;
+      const atEnd = grid.scrollLeft + grid.clientWidth >= grid.scrollWidth - 4;
+      leftBtn.style.opacity = atStart ? '0' : '';
+      rightBtn.style.opacity = atEnd ? '0' : '';
+    });
+  });
+}
+
 // ===== Data Loading & App Initialization =====
 async function loadData() {
   const [skillsRes, projRes, testRes] = await Promise.all([
@@ -434,6 +464,7 @@ async function init() {
     });
 
     refreshAOS();
+    initScrollButtons();
   } catch (e) {
     console.error('Failed to load data:', e);
   }
