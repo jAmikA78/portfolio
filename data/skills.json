@@ -1,0 +1,119 @@
+[
+  {
+    "icon": "fa-mobile-alt",
+    "title": "Mobile Development",
+    "color": "primary",
+    "skills": [
+      { "name": "Flutter", "proficiency": 0.90 },
+      { "name": "Dart", "proficiency": 0.85 },
+      { "name": "Kotlin", "proficiency": 0.80 },
+      { "name": "Firebase", "proficiency": 0.80 },
+      { "name": "Android SDK", "proficiency": 0.75 },
+      { "name": "REST APIs", "proficiency": 0.85 },
+      { "name": "State Management (Provider, Bloc)", "proficiency": 0.80 },
+      { "name": "Push Notifications", "proficiency": 0.75 }
+    ]
+  },
+  {
+    "icon": "fa-graduation-cap",
+    "title": "Teaching & Mentorship",
+    "color": "secondary",
+    "skills": [
+      { "name": "C++ Beginner to Advanced", "proficiency": 0.90 },
+      { "name": "DSA & Problem Solving", "proficiency": 0.92 },
+      { "name": "Competitive Programming Coaching", "proficiency": 0.88 },
+      { "name": "Curriculum Design", "proficiency": 0.85 },
+      { "name": "Live Coding & Debugging", "proficiency": 0.90 },
+      { "name": "Contest Organization", "proficiency": 0.85 },
+      { "name": "Mentored 500+ Students", "proficiency": 1.0 },
+      { "name": "MACPC Leadership (Ended Sep 2024)", "proficiency": 1.0 }
+    ]
+  },
+  {
+    "icon": "fa-terminal",
+    "title": "Programming Languages",
+    "color": "secondary",
+    "skills": [
+      { "name": "Python", "proficiency": 0.92 },
+      { "name": "C++", "proficiency": 0.88 },
+      { "name": "Java", "proficiency": 0.87 },
+      { "name": "Dart", "proficiency": 0.85 },
+      { "name": "SQL", "proficiency": 0.85 },
+      { "name": "PHP", "proficiency": 0.70 }
+    ]
+  },
+  {
+    "icon": "fa-microchip",
+    "title": "C++ Systems & Competitive Programming",
+    "color": "accent",
+    "skills": [
+      { "name": "C++17 / STL", "proficiency": 0.88 },
+      { "name": "CMake & Ninja", "proficiency": 0.80 },
+      { "name": "Memory Allocators (First/Best/Worst-Fit)", "proficiency": 0.85 },
+      { "name": "OOP & Design Patterns", "proficiency": 0.85 },
+      { "name": "File I/O & Persistence", "proficiency": 0.80 },
+      { "name": "Data Structures (Linked List, Stack, Queue, Tree)", "proficiency": 0.90 },
+      { "name": "Algorithms (Greedy, DP, Binary Search, Graph)", "proficiency": 0.88 },
+      { "name": "Codeforces (500+ Problems Solved)", "proficiency": 0.85 }
+    ]
+  },
+  {
+    "icon": "fa-desktop",
+    "title": "Java Desktop & Enterprise",
+    "color": "secondary",
+    "skills": [
+      { "name": "Flutter Desktop", "proficiency": 0.99 },
+      { "name": "Java Swing", "proficiency": 0.85 },
+      { "name": "JPA / Hibernate", "proficiency": 0.78 },
+      { "name": "JDBC", "proficiency": 0.82 },
+      { "name": "MySQL Integration", "proficiency": 0.85 },
+      { "name": "CRUD & Transactions", "proficiency": 0.85 },
+      { "name": "Search & Sort Algorithms", "proficiency": 0.80 }
+    ]
+  },
+  {
+    "icon": "fa-globe",
+    "title": "Web Development",
+    "color": "primary",
+    "skills": [
+      { "name": "Flutter Web", "proficiency": 0.99 },
+      { "name": "HTML", "proficiency": 0.95 },
+      { "name": "CSS", "proficiency": 0.92 },
+      { "name": "JavaScript", "proficiency": 0.85 },
+      { "name": "Bootstrap", "proficiency": 0.82 },
+      { "name": "PHP + MySQL Backend", "proficiency": 0.75 },
+      { "name": "Google Sites", "proficiency": 0.75 },
+      { "name": "Responsive Design", "proficiency": 0.80 }
+    ]
+  },
+  {
+    "icon": "fa-database",
+    "title": "Database Management",
+    "color": "secondary",
+    "skills": [
+      { "name": "MySQL", "proficiency": 0.88 },
+      { "name": "Microsoft SQL Server", "proficiency": 0.80 },
+      { "name": "Firebase Realtime DB", "proficiency": 0.78 },
+      { "name": "SQLite", "proficiency": 0.75 },
+      { "name": "Database Design & Normalization", "proficiency": 0.85 },
+      { "name": "Indexing & Query Optimization", "proficiency": 0.78 }
+    ]
+  },
+  {
+    "icon": "fa-tools",
+    "title": "Development Tools & Collaboration",
+    "color": "primary",
+    "skills": [
+      { "name": "Git", "proficiency": 0.92 },
+      { "name": "GitHub", "proficiency": 0.90 },
+      { "name": "Android Studio", "proficiency": 0.88 },
+      { "name": "VS Code", "proficiency": 0.95 },
+      { "name": "IntelliJ IDEA", "proficiency": 0.85 },
+      { "name": "Linux (Ubuntu)", "proficiency": 0.82 },
+      { "name": "Windows", "proficiency": 0.95 },
+      { "name": "Google Drive Suite", "proficiency": 0.90 },
+      { "name": "Microsoft Office", "proficiency": 0.88 },
+      { "name": "Figma (Basic UI/UX)", "proficiency": 0.65 }
+    ]
+  }
+]
