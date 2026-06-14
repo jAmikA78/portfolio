@@ -208,6 +208,18 @@ function renderProjects() {
     console.log('Card', idx, 'appended');
   });
   console.log('renderProjects done');
+  requestAnimationFrame(refreshAOS);
+}
+
+function refreshAOS() {
+  initAOS();
+  document.querySelectorAll('[data-aos]').forEach(el => {
+    const rect = el.getBoundingClientRect();
+    if (rect.top < window.innerHeight) {
+      const delay = parseInt(el.dataset.aosDelay) || 0;
+      setTimeout(() => el.classList.add('aos-animate'), delay);
+    }
+  });
 }
 
 // ===== Testimonials Carousel =====
@@ -418,16 +430,7 @@ async function init() {
       renderTestimonial(currentTestimonialIndex);
     });
 
-    initAOS();
-    requestAnimationFrame(() => {
-      document.querySelectorAll('[data-aos]').forEach(el => {
-        const rect = el.getBoundingClientRect();
-        if (rect.top < window.innerHeight) {
-          const delay = parseInt(el.dataset.aosDelay) || 0;
-          setTimeout(() => el.classList.add('aos-animate'), delay);
-        }
-      });
-    });
+    refreshAOS();
   } catch (e) {
     console.error('Failed to load data:', e);
   }
