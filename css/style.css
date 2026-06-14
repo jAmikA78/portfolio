@@ -551,9 +551,23 @@ ul { list-style: none; }
 }
 
 .skills-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
   gap: 48px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  padding: 4px 0 12px;
+  scrollbar-width: thin;
+}
+
+.skills-grid::-webkit-scrollbar { height: 6px; }
+.skills-grid::-webkit-scrollbar-track { background: transparent; }
+.skills-grid::-webkit-scrollbar-thumb { background: #4b5563; border-radius: 3px; }
+
+.skills-grid .skill-card {
+  flex: 0 0 auto;
+  width: 320px;
+  scroll-snap-align: start;
 }
 
 .skill-card {
@@ -658,9 +672,23 @@ ul { list-style: none; }
 }
 
 .projects-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
   gap: 24px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  padding: 4px 0 12px;
+  scrollbar-width: thin;
+}
+
+.projects-grid::-webkit-scrollbar { height: 6px; }
+.projects-grid::-webkit-scrollbar-track { background: transparent; }
+.projects-grid::-webkit-scrollbar-thumb { background: #4b5563; border-radius: 3px; }
+
+.projects-grid .project-card {
+  flex: 0 0 auto;
+  width: 320px;
+  scroll-snap-align: start;
 }
 
 .project-card {
@@ -1303,11 +1331,6 @@ a.contact-detail-value {
 }
 
 /* ===== Responsive ===== */
-@media (max-width: 1200px) {
-  .skills-grid { grid-template-columns: repeat(3, 1fr); }
-  .projects-grid { grid-template-columns: repeat(3, 1fr); }
-}
-
 @media (max-width: 1024px) {
   .hero-name { font-size: 44px; }
   .hero-image-frame { width: 220px; height: 220px; }
@@ -1319,8 +1342,6 @@ a.contact-detail-value {
     grid-template-columns: 1fr;
     gap: 40px;
   }
-  .skills-grid { grid-template-columns: repeat(2, 1fr); }
-  .projects-grid { grid-template-columns: repeat(2, 1fr); }
   .footer-grid { grid-template-columns: 1fr; gap: 24px; }
   .achievements-grid { grid-template-columns: 1fr; }
   .hero-container { padding: 0 24px; }
@@ -1401,8 +1422,6 @@ a.contact-detail-value {
 }
 
 @media (max-width: 600px) {
-  .skills-grid { grid-template-columns: 1fr; }
-  .projects-grid { grid-template-columns: 1fr; }
   .hero-cta { flex-direction: column; align-items: center; }
   .btn { width: 100%; justify-content: center; }
 }
