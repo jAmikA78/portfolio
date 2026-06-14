@@ -683,6 +683,7 @@ ul { list-style: none; }
   position: relative;
   height: 180px;
   overflow: hidden;
+  background: #1f2937;
 }
 
 .project-card-image {

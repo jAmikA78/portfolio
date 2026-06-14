@@ -469,9 +469,11 @@ function renderProjects() {
     ? projects.filter(p => p.mainTech === selectedTechFilter)
     : projects;
 
+  console.log('renderProjects - filtered count:', filtered.length);
   projectsGrid.innerHTML = '';
 
   filtered.forEach((project, idx) => {
+    console.log('Rendering card', idx, project.title);
     const catColors = getCategoryColors(project.category);
     const card = document.createElement('div');
     card.className = 'project-card';
@@ -486,7 +488,12 @@ function renderProjects() {
     img.src = project.image;
     img.alt = project.title;
     img.loading = 'lazy';
-    img.onerror = function() { this.onerror = null; this.src = 'assets/default-image.png'; };
+    img.onerror = function() {
+      this.onerror = function() {
+        this.src = 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200"><rect fill="#1f2937" width="400" height="200"/><text x="200" y="110" text-anchor="middle" fill="#6b7280" font-size="14" font-family="sans-serif">Image unavailable</text></svg>');
+      };
+      this.src = 'assets/default-image.png';
+    };
     wrapper.appendChild(img);
 
     const badge = document.createElement('div');
@@ -546,14 +553,23 @@ function renderProjects() {
     body.appendChild(links);
     card.appendChild(body);
     projectsGrid.appendChild(card);
+    console.log('Card', idx, 'appended');
   });
+  console.log('renderProjects done');
 }
 
 console.log('mainTech values:', projects.map(p => p.mainTech));
 console.log('unique mainTech:', getMainTechList());
 console.log('Total projects:', projects.length);
+console.log('Calling renderFilters...');
 renderFilters();
-renderProjects();
+console.log('Calling renderProjects...');
+try {
+  renderProjects();
+  console.log('renderProjects completed');
+} catch(e) {
+  console.error('renderProjects error:', e);
+}
 
 // ===== Testimonials Carousel =====
 let currentTestimonialIndex = 0;
