@@ -575,8 +575,8 @@ ul { list-style: none; }
 }
 
 .scroller-wrapper:hover .scroll-btn { opacity: 1; }
-
 .scroll-btn:hover { background: rgba(0,0,0,0.8); }
+@media (hover: none) { .scroll-btn { opacity: 1; width: 36px; height: 36px; } }
 
 .scroll-btn-left { left: 4px; }
 .scroll-btn-right { right: 4px; }
