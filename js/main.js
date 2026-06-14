@@ -27,6 +27,14 @@ function getMainTechList() {
   return ['All', ...new Set(projects.map(p => p.mainTech))];
 }
 
+function getDirectImageUrl(url) {
+  const match = url.match(/\/file\/d\/([^/]+)\//);
+  if (match) {
+    return 'https://drive.google.com/thumbnail?id=' + match[1] + '&sz=w800';
+  }
+  return url;
+}
+
 // ===== Navigation =====
 const navbar = document.getElementById('navbar');
 const navToggle = document.getElementById('navToggle');
@@ -137,7 +145,7 @@ function renderProjects() {
 
     const img = document.createElement('img');
     img.className = 'project-card-image';
-    img.src = project.image;
+    img.src = getDirectImageUrl(project.image);
     img.alt = project.title;
     img.loading = 'lazy';
     img.onerror = function() {
