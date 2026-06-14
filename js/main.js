@@ -124,6 +124,17 @@ const projects = [
     liveLink: 'https://anis.solutions',
   },
   {
+    title: 'MovieX',
+    description: 'A native Android app built with modern Android development practices. Provides an intuitive interface to discover trending movies, search for titles, view detailed information including cast and reviews, and save favorites for later.',
+    image: 'https://drive.google.com/file/d/1Wip7TmNNW7fSeiNG9Mxad60aDGDX1QPA/view?usp=sharing',
+    mainTech: 'Android Native',
+    tech: ['Android Native', 'Kotlin', 'REST APIs', 'TMDB API', 'Material Design'],
+    category: 'Mobile Development',
+    icon: 'fa-film',
+    sourceLink: 'https://github.com/jAmikA78/MovieX',
+    liveLink: 'https://moviexwebsite.netlify.app/',
+  },
+  {
     title: 'Quran Karim',
     description: 'Complete Flutter mobile app providing access to the Quran in text and audio formats, along with a searchable Hadith dataset from major Islamic texts. Supports offline reading, bookmarks, multilingual recitations, and Firebase for user preferences.',
     image: 'https://static-sg.winudf.com/apk-com-img/70480791f8e45f3dd822f2a50fac3207f8a07d534bc136bc766eb6548bbe56ea3902308a.jpg',
