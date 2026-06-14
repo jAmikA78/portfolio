@@ -103,7 +103,7 @@ function renderSkills() {
 const projectsGrid = document.getElementById('projectsGrid');
 const filtersContainer = document.querySelector('.project-filters');
 
-let selectedTechFilter = 'Android Native';
+let selectedTechFilter = null;
 
 function renderFilters() {
   filtersContainer.innerHTML = '';
@@ -111,7 +111,7 @@ function renderFilters() {
 
   techList.forEach((filter, i) => {
     const btn = document.createElement('button');
-    btn.className = 'filter-btn' + (filter === selectedTechFilter || (i === 0 && !selectedTechFilter) ? ' active' : '');
+    btn.className = 'filter-btn' + (i === 0 ? ' active' : '');
     btn.dataset.filter = filter;
     btn.textContent = filter;
     btn.addEventListener('click', () => {
