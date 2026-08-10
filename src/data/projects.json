@@ -15,7 +15,7 @@
     "id": 2,
     "title": "MovieX",
     "description": "A native Android app built with modern Android development practices. Discover trending movies, search titles, view details including cast and reviews, and save favorites for later.",
-    "image": "https://drive.google.com/uc?export=download&id=1Wip7TmNNW7fSeiNG9Mxad60aDGDX1QPA",
+    "image": "https://lh3.googleusercontent.com/d/1Wip7TmNNW7fSeiNG9Mxad60aDGDX1QPA",
     "mainTech": "Android Native",
     "tech": ["Android Native", "Kotlin", "REST APIs", "TMDB API", "Material Design"],
     "category": "Mobile Development",
@@ -51,7 +51,7 @@
     "id": 5,
     "title": "News App",
     "description": "Cross-platform Flutter news aggregator with real-time updates via NewsAPI, categories, search, favorites, offline reading, image caching, and background notifications.",
-    "image": "https://lh3.googleusercontent.com/d/1Wip7TmNNW7fSeiNG9Mxad60aDGDX1QPA",
+    "image": "https://drive.google.com/uc?export=download&id=1rIYb0mMBFC1hi-XA4yMuBKp0r81l5xTO",
     "mainTech": "Flutter",
     "tech": [
       "Flutter",
