@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "role": "Co-Head",
+    "org": "ICPC MA Community",
+    "period": "Jul 2024 - Jun 2026",
+    "description": "Co-leading one of the region's most active competitive programming communities, organizing training and contests.",
+    "tags": ["Leadership", "Competitive Programming", "Community"],
+    "icon": "Trophy",
+    "color": "#FACC15"
+  },
+  {
+    "id": 2,
+    "role": "Head of Instructors",
+    "org": "ICPC MA Community",
+    "period": "Sep 2023 - Jun 2026",
+    "description": "Leading a team of instructors to deliver structured programming and data structure training for students.",
+    "tags": ["Mentorship", "Teaching", "Curriculum"],
+    "icon": "Users",
+    "color": "#FACC15"
+  },
+  {
+    "id": 3,
+    "role": "Team Leader",
+    "org": "Code Box",
+    "period": "May 2023 - Sep 2023",
+    "description": "Led a student team, coordinating sessions and supporting members through hands-on programming activities.",
+    "tags": ["Team Leadership", "Coordination"],
+    "icon": "Zap",
+    "color": "#FACC15"
+  },
+  {
+    "id": 4,
+    "role": "Instructor",
+    "org": "Code Box",
+    "period": "Feb 2023 - Sep 2023",
+    "description": "Taught programming fundamentals to students, breaking down complex topics into clear, actionable lessons.",
+    "tags": ["Teaching", "Programming Basics"],
+    "icon": "GraduationCap",
+    "color": "#FACC15"
+  }
+]

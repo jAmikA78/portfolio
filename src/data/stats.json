@@ -1,0 +1,6 @@
+[
+  { "label": "Years Experience", "value": 3, "suffix": "+" },
+  { "label": "Projects Built", "value": 21, "suffix": "+" },
+  { "label": "Students Mentored", "value": 500, "suffix": "+" },
+  { "label": "Codeforces Problems", "value": 500, "suffix": "+" }
+]

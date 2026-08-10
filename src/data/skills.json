@@ -1,0 +1,125 @@
+[
+  {
+    "id": 1,
+    "icon": "Smartphone",
+    "title": "Mobile Development",
+    "color": "#3B82F6",
+    "skills": [
+      { "name": "Flutter", "proficiency": 0.9 },
+      { "name": "Dart", "proficiency": 0.85 },
+      { "name": "Kotlin", "proficiency": 0.8 },
+      { "name": "Firebase", "proficiency": 0.8 },
+      { "name": "Android SDK", "proficiency": 0.75 },
+      { "name": "REST APIs", "proficiency": 0.85 },
+      { "name": "State Management (Provider, Bloc)", "proficiency": 0.8 },
+      { "name": "Push Notifications", "proficiency": 0.75 }
+    ]
+  },
+  {
+    "id": 2,
+    "icon": "GraduationCap",
+    "title": "Teaching & Mentorship",
+    "color": "#8B5CF6",
+    "skills": [
+      { "name": "C++ Beginner to Advanced", "proficiency": 0.9 },
+      { "name": "DSA & Problem Solving", "proficiency": 0.92 },
+      { "name": "Competitive Programming Coaching", "proficiency": 0.88 },
+      { "name": "Curriculum Design", "proficiency": 0.85 },
+      { "name": "Live Coding & Debugging", "proficiency": 0.9 },
+      { "name": "Contest Organization", "proficiency": 0.85 },
+      { "name": "Mentored 500+ Students", "proficiency": 1 },
+      { "name": "MACPC Leadership", "proficiency": 1 }
+    ]
+  },
+  {
+    "id": 3,
+    "icon": "Code2",
+    "title": "Programming Languages",
+    "color": "#06B6D4",
+    "skills": [
+      { "name": "Python", "proficiency": 0.92 },
+      { "name": "C++", "proficiency": 0.88 },
+      { "name": "Java", "proficiency": 0.87 },
+      { "name": "Dart", "proficiency": 0.85 },
+      { "name": "SQL", "proficiency": 0.85 },
+      { "name": "PHP", "proficiency": 0.7 }
+    ]
+  },
+  {
+    "id": 4,
+    "icon": "Cpu",
+    "title": "C++ Systems & Competitive Programming",
+    "color": "#F59E0B",
+    "skills": [
+      { "name": "C++17 / STL", "proficiency": 0.88 },
+      { "name": "CMake & Ninja", "proficiency": 0.8 },
+      { "name": "Memory Allocators (First/Best/Worst-Fit)", "proficiency": 0.85 },
+      { "name": "OOP & Design Patterns", "proficiency": 0.85 },
+      { "name": "File I/O & Persistence", "proficiency": 0.8 },
+      { "name": "Data Structures (Lists, Stacks, Trees)", "proficiency": 0.9 },
+      { "name": "Algorithms (Greedy, DP, Graphs)", "proficiency": 0.88 },
+      { "name": "Codeforces (500+ Problems Solved)", "proficiency": 0.85 }
+    ]
+  },
+  {
+    "id": 5,
+    "icon": "Monitor",
+    "title": "Java Desktop & Enterprise",
+    "color": "#F97316",
+    "skills": [
+      { "name": "Flutter Desktop", "proficiency": 0.99 },
+      { "name": "Java Swing", "proficiency": 0.85 },
+      { "name": "JPA / Hibernate", "proficiency": 0.78 },
+      { "name": "JDBC", "proficiency": 0.82 },
+      { "name": "MySQL Integration", "proficiency": 0.85 },
+      { "name": "CRUD & Transactions", "proficiency": 0.85 },
+      { "name": "Search & Sort Algorithms", "proficiency": 0.8 }
+    ]
+  },
+  {
+    "id": 6,
+    "icon": "Globe",
+    "title": "Web Development",
+    "color": "#10B981",
+    "skills": [
+      { "name": "Flutter Web", "proficiency": 0.99 },
+      { "name": "HTML", "proficiency": 0.95 },
+      { "name": "CSS", "proficiency": 0.92 },
+      { "name": "JavaScript", "proficiency": 0.85 },
+      { "name": "Bootstrap", "proficiency": 0.82 },
+      { "name": "PHP + MySQL Backend", "proficiency": 0.75 },
+      { "name": "Responsive Design", "proficiency": 0.8 }
+    ]
+  },
+  {
+    "id": 7,
+    "icon": "Database",
+    "title": "Database Management",
+    "color": "#6366F1",
+    "skills": [
+      { "name": "MySQL", "proficiency": 0.88 },
+      { "name": "Microsoft SQL Server", "proficiency": 0.8 },
+      { "name": "Firebase Realtime DB", "proficiency": 0.78 },
+      { "name": "SQLite", "proficiency": 0.75 },
+      { "name": "Database Design & Normalization", "proficiency": 0.85 },
+      { "name": "Indexing & Query Optimization", "proficiency": 0.78 }
+    ]
+  },
+  {
+    "id": 8,
+    "icon": "Wrench",
+    "title": "Development Tools & Collaboration",
+    "color": "#64748B",
+    "skills": [
+      { "name": "Git", "proficiency": 0.92 },
+      { "name": "GitHub", "proficiency": 0.9 },
+      { "name": "Android Studio", "proficiency": 0.88 },
+      { "name": "VS Code", "proficiency": 0.95 },
+      { "name": "IntelliJ IDEA", "proficiency": 0.85 },
+      { "name": "Linux (Ubuntu)", "proficiency": 0.82 },
+      { "name": "Google Drive Suite", "proficiency": 0.9 },
+      { "name": "Microsoft Office", "proficiency": 0.88 },
+      { "name": "Figma (Basic UI/UX)", "proficiency": 0.65 }
+    ]
+  }
+]

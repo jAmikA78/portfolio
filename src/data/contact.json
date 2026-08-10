@@ -1,0 +1,28 @@
+{
+  "email": "Ahmed.Ibrahim.official.mail@gmail.com",
+  "phone": "+20 112 781 8389",
+  "whatsapp": "+201127818389",
+  "location": "Cairo, Egypt",
+  "socials": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/jAmikA78",
+      "icon": "github"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/-ahmed-ibrahim-abd-elghany",
+      "icon": "linkedin"
+    },
+    {
+      "label": "WhatsApp",
+      "url": "https://wa.me/201127818389",
+      "icon": "whatsapp"
+    },
+    {
+      "label": "Email",
+      "url": "mailto:Ahmed.Ibrahim.official.mail@gmail.com",
+      "icon": "mail"
+    }
+  ]
+}

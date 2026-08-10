@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "role": "Mobile Developer Intern",
+    "org": "ITI (Information Technology Institute)",
+    "period": "Sep 2025",
+    "description": "Intensive hands-on program focused on professional mobile application development and modern Android tooling.",
+    "tags": ["Mobile Development", "Android", "Kotlin"],
+    "icon": "Smartphone",
+    "color": "#2563EB"
+  },
+  {
+    "id": 2,
+    "role": "AI/ML Intern",
+    "org": "NTI (National Technology Institute)",
+    "period": "Aug 2025",
+    "description": "Immersive training on machine learning and artificial intelligence fundamentals with applied projects.",
+    "tags": ["Machine Learning", "Deep Learning", "Python"],
+    "icon": "Brain",
+    "color": "#2563EB"
+  },
+  {
+    "id": 3,
+    "role": "Deep Learning Engineer Intern",
+    "org": "Div Academy",
+    "period": "Jul 2024 - Aug 2024",
+    "description": "Worked on neural network architectures and deep learning models, applying best practices to real datasets.",
+    "tags": ["Deep Learning", "Neural Networks", "Python"],
+    "icon": "Cpu",
+    "color": "#2563EB"
+  },
+  {
+    "id": 4,
+    "role": "Mobile Application Developer Intern",
+    "org": "IT Sharks",
+    "period": "Jun 2023 - Sep 2023",
+    "description": "Built and shipped mobile applications while collaborating with a professional development team.",
+    "tags": ["Flutter", "Mobile Apps", "Collaboration"],
+    "icon": "Code2",
+    "color": "#2563EB"
+  }
+]

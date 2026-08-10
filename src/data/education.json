@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "role": "Bachelor of Computer Science",
+    "org": "Modern Academy in Maadi",
+    "period": "Graduated 2026",
+    "description": "Focused on computer science fundamentals, algorithms, data structures, and software engineering with strong practical coursework.",
+    "tags": ["Computer Science", "Algorithms", "Software Engineering"],
+    "icon": "GraduationCap",
+    "color": "#43A047"
+  },
+  {
+    "id": 2,
+    "role": "High School Diploma",
+    "org": "El-Massreen High School",
+    "period": "Graduated 2022",
+    "description": "Foundation years that sparked a lifelong passion for programming and problem solving.",
+    "tags": ["General Studies"],
+    "icon": "School",
+    "color": "#43A047"
+  }
+]

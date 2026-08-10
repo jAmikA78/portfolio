@@ -1,0 +1,109 @@
+{
+  "brand": {
+    "firstName": "Ahmed",
+    "lastName": "Ibrahim",
+    "tagline": "Software Engineer & Mobile Developer"
+  },
+  "navLinks": [
+    { "label": "About", "href": "#about" },
+    { "label": "Skills", "href": "#skills" },
+    { "label": "Projects", "href": "#projects" },
+    { "label": "Testimonials", "href": "#testimonials" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+  "hero": {
+    "badge": "Available for freelance & collaborations",
+    "cvUrl": "https://tab.so/ahmed-ibrahim-resume",
+    "scrollHint": "scroll",
+    "services": [
+      {
+        "icon": "Smartphone",
+        "label": "Mobile Development",
+        "desc": "High-performance Flutter & native Android apps that captivate and engage."
+      },
+      {
+        "icon": "GraduationCap",
+        "label": "Programming Instructor",
+        "desc": "Mentoring students in programming fundamentals and competitive programming."
+      },
+      {
+        "icon": "Brain",
+        "label": "AI & Problem Solving",
+        "desc": "Intelligent Python-based AI and robust solutions to complex challenges."
+      }
+    ]
+  },
+  "about": {
+    "title": "Software Engineer,\nMobile Developer & Problem Solver",
+    "techTags": [
+      "Flutter",
+      "Dart",
+      "Kotlin",
+      "Android",
+      "Python",
+      "C++",
+      "Java",
+      "JavaScript",
+      "SQL",
+      "Firebase"
+    ],
+    "features": [
+      {
+        "icon": "Smartphone",
+        "label": "Mobile First",
+        "desc": "Crafted, high-performance apps for Android and beyond."
+      },
+      {
+        "icon": "Brain",
+        "label": "AI Driven",
+        "desc": "Intelligent, data-driven solutions built with Python."
+      },
+      {
+        "icon": "Target",
+        "label": "Problem Solver",
+        "desc": "Competitive programmer who loves challenging coding puzzles."
+      },
+      {
+        "icon": "Users",
+        "label": "Mentor",
+        "desc": "Giving back by coaching the next generation of developers."
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills & Expertise",
+    "subtitle": "A curated set of skills honed through years of dedication and practical experience."
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "subtitle": "Explore innovative solutions crafted to address real-world challenges.",
+    "filterAll": "All"
+  },
+  "testimonials": {
+    "title": "Student Stories"
+  },
+  "achievements": {
+    "title": "Recognition & Achievements"
+  },
+  "contact": {
+    "title": "Let's Work Together",
+    "subtitle": "Have a project in mind or want to collaborate? I'd love to hear from you.",
+    "form": {
+      "nameLabel": "Your Name",
+      "namePlaceholder": "Sara Mahmoud",
+      "emailLabel": "Your Email",
+      "emailPlaceholder": "sara@example.com",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Tell me about your project or how I can help...",
+      "sendLabel": "Send Message",
+      "sendingLabel": "Sending...",
+      "sentLabel": "Message Sent!",
+      "sendError": "Something went wrong sending your message. Please try again or email me directly at",
+      "notConfigured": "The contact form is not configured yet. Please email me directly at"
+    }
+  },
+  "footer": {
+    "tagline": "Crafting digital solutions that redefine innovation through mobile apps, AI models, and web platforms.",
+    "rights": "All rights reserved."
+  }
+}
