@@ -1,22 +1,22 @@
 [
   {
     "id": 1,
-    "role": "Mobile Developer Intern",
-    "org": "ITI (Information Technology Institute)",
-    "period": "Sep 2025",
-    "description": "Intensive hands-on program focused on professional mobile application development and modern Android tooling.",
-    "tags": ["Mobile Development", "Android", "Kotlin"],
-    "icon": "Smartphone",
+    "role": "Instructor",
+    "org": "Digital Egypt Cubs Initiative (DECI & DEMI) — iSchool, Ministry of Communications and Information Technology",
+    "period": "Jul 2026",
+    "description": "Delivered interactive programming and computer science sessions for school students as part of the national DECI program.\nConducted hands-on programming and technology sessions for students, focusing on practical application and project-based learning.\nIntroduced foundational coding concepts, logical thinking, and hands-on mini-projects in a supportive classroom environment.\nAdapted lesson plans to different age groups, fostering early interest in software development and mobile technologies.",
+    "tags": ["Teaching", "Programming", "Computer Science"],
+    "icon": "Users",
     "color": "#2563EB"
   },
   {
     "id": 2,
-    "role": "AI/ML Intern",
-    "org": "NTI (National Technology Institute)",
-    "period": "Aug 2025",
-    "description": "Immersive training on machine learning and artificial intelligence fundamentals with applied projects.",
-    "tags": ["Machine Learning", "Deep Learning", "Python"],
-    "icon": "Brain",
+    "role": "Head of Instructors & community Co-Head, Training Programs",
+    "org": "ICPC MA Community",
+    "period": "Jun 2023 - Jun 2026",
+    "description": "Led and mentored a team of Level 0 and Level 1 programming instructors, ensuring consistent, high-quality delivery of algorithms and problem-solving training.\nDesigned and refined the introductory C++ curriculum, covering fundamentals, data structures, and competitive programming techniques.\nDelivered live training sessions to cohorts of 50+ students; improved student retention and contest participation rates.\nOversaw the full training lifecycle: scheduling contests, coordinating workshops, and managing instructor-student communication.\nCollaborated with senior instructors to update materials, integrating real-world examples and online judge practice.\nOrganized mock programming contests and feedback sessions, leading to measurable improvement in students' problem-solving performance.",
+    "tags": ["C++", "Algorithms", "Competitive Programming", "Mentoring"],
+    "icon": "Trophy",
     "color": "#2563EB"
   },
   {

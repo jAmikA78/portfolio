@@ -5,18 +5,38 @@
     "org": "Modern Academy in Maadi",
     "period": "Graduated 2026",
     "description": "Focused on computer science fundamentals, algorithms, data structures, and software engineering with strong practical coursework.",
-    "tags": ["Computer Science", "Algorithms", "Software Engineering"],
+    "tags": ["Computer Science", "Software Engineering"],
     "icon": "GraduationCap",
     "color": "#43A047"
   },
   {
     "id": 2,
-    "role": "High School Diploma",
-    "org": "El-Massreen High School",
-    "period": "Graduated 2022",
-    "description": "Foundation years that sparked a lifelong passion for programming and problem solving.",
-    "tags": ["General Studies"],
+    "role": "Diploma of Android Native Development",
+    "org": "Egypt University of Informatics (EUI)",
+    "period": "Graduated 2026",
+    "description": "Intensive training in modern Android development using Kotlin, Jetpack Compose, and MVVM architecture.",
+    "tags": ["Android", "Kotlin", "Jetpack Compose", "MVVM"],
     "icon": "School",
+    "color": "#43A047"
+  },
+  {
+    "id": 3,
+    "role": "Mobile Developer diploma",
+    "org": "ITI (Information Technology Institute)",
+    "period": "Sep 2025",
+    "description": "Intensive hands-on program focused on professional mobile application development and modern Android tooling.",
+    "tags": ["Mobile Development", "Flutter", "Dart", "Android", "iOS"],
+    "icon": "Smartphone",
+    "color": "#43A047"
+  },
+  {
+    "id": 4,
+    "role": "AI/ML diploma",
+    "org": "NTI (National Technology Institute)",
+    "period": "Aug 2025",
+    "description": "Immersive training on machine learning and artificial intelligence fundamentals with applied projects.",
+    "tags": ["Machine Learning", "Deep Learning", "Python"],
+    "icon": "Brain",
     "color": "#43A047"
   }
 ]

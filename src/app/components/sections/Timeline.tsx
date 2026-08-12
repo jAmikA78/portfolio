@@ -47,7 +47,9 @@ export function Timeline({ title, icon, items, accentColor }: TimelineProps) {
                       {item.period}
                     </span>
                   </div>
-                  <p className="text-white/50 text-sm leading-relaxed mb-3">{item.description}</p>
+                  <p className="text-white/50 text-sm leading-relaxed whitespace-pre-line mb-3">
+                    {item.description}
+                  </p>
                   <div className="flex flex-wrap gap-2">
                     {item.tags.map((tag) => (
                       <span

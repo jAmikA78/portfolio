@@ -30,24 +30,13 @@ export function SkillsSection() {
                 <h3 className="font-bold text-white text-base font-display mb-4">
                   {category.title}
                 </h3>
-                <div className="flex flex-col gap-3">
+                <div className="flex flex-wrap gap-2">
                   {category.skills.map((skill) => (
-                    <div key={skill.name}>
-                      <div className="flex items-center justify-between mb-1">
-                        <span className="text-white/60 text-xs">{skill.name}</span>
-                        <span className="text-white/35 text-xs">
-                          {Math.round(skill.proficiency * 100)}%
-                        </span>
-                      </div>
-                      <div className="h-1.5 rounded-full bg-white/8 overflow-hidden">
-                        <div
-                          className="h-full rounded-full transition-all duration-700"
-                          style={{
-                            width: `${skill.proficiency * 100}%`,
-                            backgroundColor: category.color,
-                          }}
-                        />
-                      </div>
+                    <div
+                      key={skill.name}
+                      className="rounded-lg border border-white/8 bg-white/4 px-2.5 py-1.5 text-xs text-white/70"
+                    >
+                      {skill.name}
                     </div>
                   ))}
                 </div>
