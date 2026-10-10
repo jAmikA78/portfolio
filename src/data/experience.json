@@ -1,6 +1,17 @@
 [
   {
     "id": 1,
+    "role": "Teaching Assistant",
+    "org": "Modern Academy in Maadi (MAM)",
+    "orgFull": "Modern Academy in Maadi – Computer Science Department",
+    "period": "Sep 2026 – Present",
+    "description": "Support undergraduate computer science education through tutorials, practical sessions, student mentoring, and academic guidance. Assist with course materials, assignments, practical activities, and student evaluation while helping students strengthen their programming and problem-solving skills.",
+    "tags": ["Teaching Assistant", "Computer Science", "Student Mentoring", "Programming"],
+    "icon": "Users",
+    "color": "#2563EB"
+  },
+  {
+    "id": 2,
     "role": "Instructor",
     "org": "Digital Egypt Cubs Initiative (DECI & DEMI) — iSchool, Ministry of Communications and Information Technology",
     "period": "Jul 2026",
@@ -10,7 +21,7 @@
     "color": "#2563EB"
   },
   {
-    "id": 2,
+    "id": 3,
     "role": "Head of Instructors & community Co-Head, Training Programs",
     "org": "ICPC MA Community",
     "period": "Jun 2023 - Jun 2026",
@@ -20,7 +31,7 @@
     "color": "#2563EB"
   },
   {
-    "id": 3,
+    "id": 4,
     "role": "Deep Learning Engineer Intern",
     "org": "Div Academy",
     "period": "Jul 2024 - Aug 2024",
@@ -30,7 +41,7 @@
     "color": "#2563EB"
   },
   {
-    "id": 4,
+    "id": 5,
     "role": "Mobile Application Developer Intern",
     "org": "IT Sharks",
     "period": "Jun 2023 - Sep 2023",
